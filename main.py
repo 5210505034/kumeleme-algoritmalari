@@ -42,3 +42,25 @@ for i in range(aletSayisi):
 kumeSayisi = int(input("\nKaç adet küme oluşturmak istiyorsunuz? "))
 
 kumeleme(aletler, aletSayisi, kumeSayisi)
+
+
+
+
+"""Bu program da müzik aletlerini belirli özelliklerine göre kümeleme işlemini gerçekleştirir. 
+
+MuzikAleti sınıfı, müzik aletlerinin özelliklerini (isim, ses kalitesi, notalar arası uyum, çalınabilirlik) tutmak için kullanılır.
+
+benzerlik fonksiyonu, iki müzik aleti arasındaki benzerlik değerini hesaplar. 
+Bu hesaplama, müzik aletlerinin ses kalitesi, notalar arası uyum ve çalınabilirlik özelliklerine dayanır.
+
+kumeleme fonksiyonu, kümeleme işlemini gerçekleştirir. 
+İlk olarak, kümeler listesi oluşturulur ve müzik aletlerinden belirli sayıda kümeye başlangıç merkezleri atanır.
+
+Her bir müzik aleti diğer kümelerle karşılaştırılarak en yakın kümeye atanır.
+
+Program, her bir müzik aletinin hangi kümeye ait olduğunu ekrana yazdırır.
+
+Kullanıcıdan müzik aleti sayısı, müzik aletlerinin özellikleri ve küme sayısı alınır. Bu bilgiler kullanılarak 'kumeleme' fonksiyonu çağrılır.
+
+Bu Python programı müzik aletlerini kümelemektedir."""
+
